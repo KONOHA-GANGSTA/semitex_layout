@@ -25,9 +25,13 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 240px;
+  width: 150px;
   box-sizing: border-box;
   padding: 30px;
+}
+
+.horizontalMediaScroller div img {
+  width: 100%;
 }
 
 .horizontalMediaScroller::-webkit-scrollbar {

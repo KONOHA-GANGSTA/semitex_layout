@@ -7,3 +7,10 @@
   border: 1px solid transparent;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .layout {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

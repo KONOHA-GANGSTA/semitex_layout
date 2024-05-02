@@ -12,7 +12,7 @@ export const Carusel = ({ pictures }) => {
           src={LEFT_ARROW}
           alt="Влево"
           onClick={() =>
-            (ref.current.scrollLeft = ref.current.scrollLeft - 300)
+            (ref.current.scrollLeft = ref.current.scrollLeft - 150)
           }
         />
       </div>
@@ -29,7 +29,7 @@ export const Carusel = ({ pictures }) => {
       </div>
       <div
         className={styles.arrow}
-        onClick={() => (ref.current.scrollLeft = ref.current.scrollLeft + 300)}
+        onClick={() => (ref.current.scrollLeft = ref.current.scrollLeft + 150)}
       >
         <img src={RIGHT_ARROW} alt="Вправо" />
       </div>

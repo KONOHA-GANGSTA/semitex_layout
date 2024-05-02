@@ -24,4 +24,11 @@
 .header {
   color: white;
   font-size: 45px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 30px;
+  }
 }

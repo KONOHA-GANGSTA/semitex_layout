@@ -1,0 +1,44 @@
+.layout {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+.layout img {
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  position: fixed;
+  background-color: #f2f2f4;
+  border-radius: 10px;
+  top: 60px;
+  left: 25%;
+}
+
+.item {
+  color: #041286;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 1px solid #041286;
+  padding: 10px;
+  text-align: left;
+  transition: 0.25s;
+}
+
+.item:hover {
+  background-color: #041286;
+  border: 1px solid white;
+  text-align: right;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .layout {
+    display: flex;
+  }
+}
