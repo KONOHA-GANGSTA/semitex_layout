@@ -1,0 +1,19 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  background-image: url(../../assets/top_background.png);
+  background-size: 100%;
+  position: fixed;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+.footer__button {
+  background-color: #969af7;
+}

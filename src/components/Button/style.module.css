@@ -1,0 +1,9 @@
+.layout {
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  padding: 18px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

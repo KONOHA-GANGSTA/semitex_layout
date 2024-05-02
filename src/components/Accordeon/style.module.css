@@ -1,0 +1,54 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: hidden;
+  transition: 0.5s;
+  height: fit-content;
+}
+
+.headline {
+  background: linear-gradient(white, #bdc0ff);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: 0.5s linear;
+  z-index: 10;
+}
+
+.summary {
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+
+.content {
+  transform: translateY(-300%);
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+  z-index: 5;
+}
+
+.active {
+  transform: translateY(0);
+  display: flex;
+  flex-direction: column;
+}
+
+.opened {
+  background: linear-gradient(#969af7, #686eec);
+  transition: background 0.5s linear;
+}
+
+.opened > .summary {
+  color: white;
+}

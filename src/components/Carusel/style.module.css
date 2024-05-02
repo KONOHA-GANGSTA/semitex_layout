@@ -1,0 +1,44 @@
+.layout {
+  display: grid;
+  grid-template-columns: 41px auto 41px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.horizontalMediaScroller {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 30px;
+
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 15px;
+}
+
+.horizontalMediaScroller div {
+  scroll-snap-align: start;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 240px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.horizontalMediaScroller::-webkit-scrollbar {
+  display: none;
+}
+
+.arrow {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  transform: scale(105%);
+}
